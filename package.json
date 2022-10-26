@@ -1,0 +1,34 @@
+{
+  "name": "@raziee/camunda-rest-api",
+  "version": "1.0.0",
+  "description": "camunda bpms rest api generate by openapi",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raziee/camunda-rest-api.git"
+  },
+  "keywords": [
+    "camunda",
+    "bpms",
+    "rest",
+    "openapi",
+    "typescript"
+  ],
+  "author": "Hossein Raziee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raziee/camunda-rest-api/issues"
+  },
+  "homepage": "https://github.com/raziee/camunda-rest-api#readme",
+  "devDependencies": {
+    "rollup": "^3.2.3",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  }
+}
